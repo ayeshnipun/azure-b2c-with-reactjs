@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Azure B2C with MSAL JS</p>
+        <p>Azure B2C with React AAD MSAL</p>
         <AzureAD provider={signInAuthProvider}>
           {({ login, logout, authenticationState, error, accountInfo }) => {
             switch (authenticationState) {
